@@ -1,0 +1,13 @@
+/* App-level reset and staggered animation helpers */
+body { margin: 0; }
+
+.stagger-1 { animation-delay: 80ms; }
+.stagger-2 { animation-delay: 160ms; }
+.stagger-3 { animation-delay: 240ms; }
+.stagger-4 { animation-delay: 320ms; }
+.stagger-5 { animation-delay: 400ms; }
+
+input[type="date"]::-webkit-calendar-picker-indicator { cursor: pointer; }
+
+.ratio-4-3  { aspect-ratio: 4 / 3; }
+.ratio-16-9 { aspect-ratio: 16 / 9; }
